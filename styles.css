@@ -40,3 +40,28 @@ nav ul {
     font-weight: 800;
     color: black;
  }
+ .assignments > .assignment{
+   display: inline-block;
+ }
+ .assignment{
+   width: 30%;
+   margin: 0;
+ }
+ .assignment > .image{
+   width: 100%;
+ }
+ .assignment a .title{
+  width: 100%;
+  text-align: center;
+ }
+ img{
+   width:100%;
+ }
+ @media (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+  .assignment{
+    width:100%;
+  }
+}
