@@ -2,9 +2,10 @@ body{
     padding: 0;
     margin: 0;
   background-color: rgb(100,100,100);
+  font-family: 'Ultra', serif;
 }
 nav{
-
+  font-family: 'Roboto', sans-serif;
     width:100%;
     margin:0 auto;
     background:#ffff;
@@ -27,4 +28,15 @@ nav ul {
     text-transform: uppercase;
     margin: 0 10px;
   }
-  
+  .Main-Content{
+       margin-left: auto;
+       margin-right:auto;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+ .Intro {
+    font-size: 48px;
+    padding: 60px 0px;
+    font-weight: 800;
+    color: black;
+ }
